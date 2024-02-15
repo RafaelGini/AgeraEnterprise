@@ -6,7 +6,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    background-color: rgb(29, 29, 29);
+    background: linear-gradient(90deg, rgb(151, 18, 18), rgb(20, 20, 20), rgb(20, 20, 20));
     color: white;
 }
 
@@ -53,13 +53,12 @@ header nav button:hover {
 }
 
 header{
-    background-color: rgb(20, 20, 20);
-    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+    background-color: rgb(15, 15, 15, 0.0);
 }
 
 header .logo{
     margin: 0;
-    padding: 20px 15px 10px;
+    padding: 15px 5px 5px;
     font-weight: bold;
     color: brown;
     font-size: 1.6em;
@@ -135,11 +134,14 @@ header nav a{
     padding: 0vh 12px 5vh;
 }
 
+#acerca-Agera .container p{
+    margin: 40px 12px 10px;
+}
+
 footer {
     text-align: center;
     padding: 50px 0px 30px 0px;
-    background-color: rgb(20, 20, 20);
-    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+    background-color: rgb(20, 20, 20, 0);
 }
 
 footer p{
